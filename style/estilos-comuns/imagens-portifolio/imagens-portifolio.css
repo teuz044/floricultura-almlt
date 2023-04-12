@@ -35,11 +35,11 @@
 }
 
 .imagem-titulo_principal::before {
-    top: calc(50% - 150px - 10px); /* posicionando acima do texto com 150px de afastamento e 10px de margem */
+    top: calc(80% - 150px - 10px); /* posicionando acima do texto com 150px de afastamento e 10px de margem */
 }
 
 .imagem-titulo_principal::after {
-    bottom: calc(50% - 150px - 10px); /* posicionando abaixo do texto com 150px de afastamento e 10px de margem */
+    bottom: calc(80% - 150px - 10px); /* posicionando abaixo do texto com 150px de afastamento e 10px de margem */
 }
 
 .linha_cima {
