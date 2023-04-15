@@ -21,7 +21,7 @@
     width: 133px;
     height: 51px;
     background: #FFFFFF;
-    border: 1px solid #F2ABBC;
+    border: 1px solid #2E8B57;
     padding: 16px 24px;
     gap: 10px;
     font-family: 'PT Sans';
@@ -29,15 +29,15 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 120%;
-    color: #F2ABBC;
+    color: #2E8B57;
 }
 
 /* SECTION mais-vendidos reutilizada, mas com outras cores. INICIO */
 .mais-vendidos {
-    background: rgba(242, 171, 188, 0.22);
+    background: rgba(46, 139, 87, 0.22);
 }
 
 .card {
-    background: rgba(242, 171, 188, 0.83);
+    background-color: #2E8B57;
 }
 /* SECTION mais-vendidos reutilizada, mas com outras cores. FIM */

@@ -1,0 +1,59 @@
+.portifolio-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center; /* Centraliza os cards horizontalmente */
+    align-items: center; /* Centraliza os cards verticalmente */
+    padding-top: 94.57px;
+    padding-bottom: 94px;
+  }
+
+  .portifolio-title {
+    display: flex;
+    padding-top: 42px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    justify-content: center;
+    color: #424242;
+  }
+  
+  .card__portifolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #2E8B57;
+    color: white;
+    height: 350px;
+    width: 250px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  .card__portifolio img {
+    width: 100%;
+    max-height: 200px; /* ou a altura desejada para a imagem */
+    object-fit: cover;
+  }
+  
+  .card__portifolio-title {
+    margin-top: auto; /* empurra o título para o final do card */
+    text-align: center;
+  }
+  
+  .card__portifolio-price {
+    font-weight: 500;
+    padding-top: 13px;
+    text-align: center;
+  }
+
+  @media (min-width: 1440px) and (max-width: 1920px) {
+
+    .portifolio-container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1280px; /* Largura máxima do container */
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+  }

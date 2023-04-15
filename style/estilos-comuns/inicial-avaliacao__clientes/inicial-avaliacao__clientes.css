@@ -1,0 +1,11 @@
+.inicial-avaliacao__clientes {
+    display: flex;
+    margin-top: 92.2px;
+    background-color: #2E8B57;
+}
+
+.avaliação__clientes {
+    width: 100%;
+    height: 530px;
+    object-fit: contain;
+}

@@ -1,9 +1,10 @@
 .nav {
     margin-top: -8px;
     grid-column: 1/-1;
-    background: #F2ABBC;
+    background: #2E8B57;
+    color: white;
   }
   
   ul .nav-home {
-    color: #955731;
+    color: white;
   }

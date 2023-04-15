@@ -39,9 +39,10 @@
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    background-color: #f0f0f0;
-    height: 238px;
-    width: 158px;
+    background-color: #2E8B57;
+    color: white;
+    height: 240px;
+    width: 190px;
   }
   
   .card img {
@@ -58,5 +59,17 @@
   .card-price {
     font-weight: bold;
     text-align: center;
+  }
+
+  @media (min-width: 1440px) and (max-width: 1920px) {
+
+    .cards-container {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 1140px; /* Largura máxima do container */
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
   }
   
