@@ -1,0 +1,53 @@
+.titulo__imagem {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    position: relative; 
+}
+
+.imagem__principal {
+    width: 100%;
+    height: 387px;
+    object-fit: cover;
+}
+
+.imagem-titulo_principal {
+    position: absolute; /* adicionando a posição absoluta para que o título seja posicionado relativo ao elemento pai */
+    top: 50%; /* centralizando verticalmente */
+    left: 50%; /* centralizando horizontalmente */
+    transform: translate(-50%, -50%); /* ajustando o posicionamento para o meio da imagem */
+    color: white;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.imagem-titulo_principal::before,
+.imagem-titulo_principal::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: white;
+    width: 100%;
+}
+
+.imagem-titulo_principal::before {
+    top: calc(80% - 150px - 10px); /* posicionando acima do texto com 150px de afastamento e 10px de margem */
+}
+
+.imagem-titulo_principal::after {
+    bottom: calc(80% - 150px - 10px); /* posicionando abaixo do texto com 150px de afastamento e 10px de margem */
+}
+
+.linha_cima {
+    width: 300px; /* definindo largura da linha de cima */
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    top: -310px; /* posicionando acima do texto com 300px de afastamento */
+    left: 50%;
+    transform: translateX(-50%);
+}

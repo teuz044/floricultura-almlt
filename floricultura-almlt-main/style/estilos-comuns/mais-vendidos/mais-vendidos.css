@@ -1,0 +1,62 @@
+.vendidos__container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.vendidos-titulo__principal {
+    padding-top: 49px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    color: #424242;
+    position: relative;
+    z-index: 1;
+}
+
+.barra_inferior {
+    width: 75px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center; /* Centraliza os cards horizontalmente */
+    align-items: center; /* Centraliza os cards verticalmente */
+    padding-top: 94.57px;
+    padding-bottom: 94px;
+    gap: 40px;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    height: 238px;
+    width: 158px;
+  }
+  
+  .card img {
+    width: 100%;
+    max-height: 200px; /* ou a altura desejada para a imagem */
+    object-fit: cover;
+  }
+  
+  .card-title {
+    margin-top: auto; /* empurra o título para o final do card */
+    text-align: center;
+  }
+  
+  .card-price {
+    font-weight: bold;
+    text-align: center;
+  }
+  
