@@ -1,0 +1,43 @@
+.section-inicial {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.inicial-text {
+    width: 204px;
+    height: 158px;
+    font-size: 26px;
+}
+
+.inicial-visit-text {
+    width: 177px;
+    height: 68px;
+    font-size: 26px;
+    padding-bottom: 48px;
+}
+
+.button-portifolio {
+    width: 133px;
+    height: 51px;
+    background: #FFFFFF;
+    border: 1px solid #F2ABBC;
+    padding: 16px 24px;
+    gap: 10px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    color: #F2ABBC;
+}
+
+/* SECTION mais-vendidos reutilizada, mas com outras cores. INICIO */
+.mais-vendidos {
+    background: rgba(242, 171, 188, 0.22);
+}
+
+.card {
+    background: rgba(242, 171, 188, 0.83);
+}
+/* SECTION mais-vendidos reutilizada, mas com outras cores. FIM */

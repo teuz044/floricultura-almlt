@@ -1,0 +1,26 @@
+.inicial-imagens__flores {
+    display: flex;
+}
+
+.imagens__flores-principal {
+    width: 100%;
+    height: 938px;
+    object-fit: cover;
+}
+
+.imagens__flores-divisao {
+    display: flex;
+    flex-direction: column;
+}
+
+.flores-divisão__1 {
+    width: 100%;
+    height: 416px;
+    object-fit: cover;
+}
+
+.flores-divisão__2 {
+    width: 100%;
+    height: 522px;
+    object-fit: cover;
+}
