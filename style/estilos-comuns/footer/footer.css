@@ -47,4 +47,7 @@ body {
     grid-row: 4/-1;
     background: #2E8B57;
     color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
   }

@@ -1,28 +1,32 @@
+body{
+  background: url(../../../images/ocasioes.jpeg) no-repeat fixed ;
+  background-size: cover;
+  background-position: center;
+}
 .gridContainer {
+    background-color: transparent;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 60px 238px 238px 121px;
   }
 
   .main-um {
-    background-image: url(../../../images/rosespar1.png);
-    background-position: right;
     grid-column: 1/2;
     grid-row: 2/4;
   }
 
   .main{
-    background-image: url(../../../images/part2roses.png);
-    background-position: left;
     grid-column: 2/-1;
     grid-row: 2/4;
+    
   }
 
   /* MAIN UM - CADASTRO */
 
   .main-um .sub {
-    font-size: 30px;
-    width: 216px;
+    font-size: 90px;
+    width: 600px;
+    padding-left: 200px;
   }
 
   .main-um .sub ul {
@@ -61,12 +65,12 @@
     width: 320px;
     height: 411px;
     border-radius: 20px;
-    background: #f2abbc;
+    background: #2E8B57;
   }
 
   .login img {
     margin-bottom: 40px;
-    background: #f5cad4cd;
+    background: #2E8B57;
     border-radius: 20px 20px 0 0;
     width: 320px;
     height: 120px;
