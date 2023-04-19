@@ -1,7 +1,10 @@
-.gridContainer {
+body{
   background: url(../../../images/ocasioes.jpeg) no-repeat fixed ;
   background-size: cover;
   background-position: center;
+}
+.gridContainer {
+  background: rgba(46, 139, 87, 0.28);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 60px 238px 238px 121px;
