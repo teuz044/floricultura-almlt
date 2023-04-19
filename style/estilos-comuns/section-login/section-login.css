@@ -1,24 +1,24 @@
-body{
+.gridContainer {
   background: url(../../../images/ocasioes.jpeg) no-repeat fixed ;
   background-size: cover;
   background-position: center;
-}
-.gridContainer {
-    background-color: transparent;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 60px 238px 238px 121px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 60px 238px 238px 121px;
+  width: 100%;
+  padding-bottom: 16em;
   }
 
   .main-um {
     grid-column: 1/2;
     grid-row: 2/4;
+    padding-top: 160px;
   }
 
   .main{
     grid-column: 2/-1;
     grid-row: 2/4;
-    
+    padding-top: 160px;
   }
 
   /* MAIN UM - CADASTRO */
