@@ -14,3 +14,12 @@
     position: relative;
     z-index: 1;
 }
+
+.aniversarios-casamento-titulo__principal:after {
+  content: "";
+  display: block;
+  width: 30%;
+  height: 2px;
+  margin-top: 15px;
+  background-color: black;
+}
