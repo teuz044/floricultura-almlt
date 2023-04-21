@@ -41,7 +41,8 @@ body{
   }
 
   .main-um .sub a {
-    font-size: 28px;
+    font-size: 15px;
+    padding: 15px;
   }
 
   .main-um .sub p {
