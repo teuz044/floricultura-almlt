@@ -115,3 +115,6 @@ body{
     cursor: pointer;
     border: 2px solid white;
   }
+  label{
+    color: #fff;
+  }
