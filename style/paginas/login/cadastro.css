@@ -1,0 +1,90 @@
+@import url(../../estilos-comuns/footer/footer.css);  
+@import url(../../estilos-comuns/reset.css);
+@import url(../../estilos-comuns/style.css);
+@import url(../../estilos-comuns/menunav/menunav.css);
+
+body{
+    background: url(../../../images/ocasioes.jpeg) no-repeat fixed ;
+    background-size: cover;
+    background-position: center;
+  }
+  .gridContainer {
+    background: rgba(46, 139, 87, 0.28);
+    width: 100%;
+    padding-bottom: 14em;
+    }
+    .main{
+      grid-column: 2/-1;
+      grid-row: 2/4;
+      padding-top: 160px;
+    }
+  
+    
+    /* MAIN - LOGIN */
+    .login, .main-login input{
+      margin: 0 auto;
+    }
+  
+    .login {
+      width: 320px;
+      height: 611px;
+      border-radius: 20px;
+      background: #2E8B57;
+    }
+  
+    .login img {
+      margin-bottom: 40px;
+      background: #2E8B57;
+      border-radius: 20px 20px 0 0;
+      width: 320px;
+      height: 120px;
+    }
+  
+    .main-login label{
+      margin-left: 60px;
+    }
+  
+    .main-login a {
+      font-size: 12px;
+      margin-left: 63px;
+    }
+  
+    .main-login input{
+      box-sizing: border-box;
+      padding-left: 8px;
+      outline: none;
+      border: none;
+      border-radius: 4px;
+      display: block;
+      width: 200px;
+      height: 32px;
+    }
+  
+    input[type="email"]{
+      margin-bottom: 20px;
+    }
+    input[type="name"]{
+    margin-bottom: 20px;
+    }
+    input[type="password"]{
+    margin-bottom: 20px;
+    }
+
+    .main-login .btn-entrar{
+      border: 1px solid white;
+      margin: 20px auto;
+      width: 116px;
+      height: 40px;
+      background: transparent;
+      color: white;
+    }
+  
+    .main-login .btn-entrar:hover, .btn-sub:hover{
+      cursor: pointer;
+      border: 2px solid white;
+    }
+    label{
+        color: white;
+        padding-bottom: 5px;
+    }
+  
