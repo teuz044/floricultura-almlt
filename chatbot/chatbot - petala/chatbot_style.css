@@ -1,0 +1,124 @@
+/* Estilos do site */
+
+body{
+    font-family: sans-serif;
+}
+
+.chat-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-image: url(icon-flor.jpg);
+    background-size: contain;
+    border-radius: 50%;
+    border: 5px solid #33985f;
+    cursor: pointer;
+    z-index: 999;
+  }
+
+  .chat-icon:hover{
+    border-color: #3db772;
+    transition: all 0.4s ease-in;
+  }
+  
+  
+  .chat-icon img {
+    width: 30%;
+    height: 40%;
+    object-fit: contain;
+  }
+  
+  .chat-container {
+    background-color: #fff;
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    width: 320px;
+    height: 400px;
+    border: 1px solid #2E8B57;
+    border-radius: 5px;
+    overflow: hidden;
+    display: none;
+  }
+
+  .p-perguntas{
+    margin-bottom: 8px;
+  }
+  
+  .chat-header {
+    background-color: #2E8B57;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .h2-chat{
+    font-size: 18px;
+  }
+
+  .fa-user-circle{
+    margin-left: 15px;
+    font-size: 20px;
+  }
+  
+  .chat-body {
+    padding: 10px;
+    height: 300px;
+    overflow-y: scroll;
+  }
+  
+  .chat-footer {
+    padding: 10px;
+    border-radius: 0 25px 25px 25px;
+    background-color: #e0e0e0;
+  }
+  
+  .message {
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 0 25px 25px 25px;
+    background-color: #dadada;
+  }
+  
+  .received {
+    background-color: #e0e0e0;
+  }
+  
+  .sent {
+    margin-top: 8px;
+    background-color: #4CAF50;
+    border-radius: 25px 0 25px 25px;
+    color: #fff;
+    text-align: right;
+  }
+  
+  .sent p {
+    margin: 0;
+  }
+  
+  .close-button {
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .question-buttons-container {
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding: 6px 12px;
+    background: #2E8B57;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .question-buttons-container:hover{
+    background-color: #33985f;
+    transition: all 0.3s ease;
+  }
+  

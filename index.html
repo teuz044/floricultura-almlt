@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="style/paginas/home/home.css">
     <link rel="stylesheet" href="style/estilos-comuns/reset.css">
     <link rel="stylesheet" href="style/estilos-comuns/style.css">
+    <link rel="stylesheet" href="./chatbot/chatbot - petala/chatbot_style.css">
     <title>Home</title>
 </head>
 <body>
@@ -122,11 +123,37 @@
         <span class="card__portifolio-price">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dumm</span>
     </div>
       
+    <div class="chat-icon" id="chat-icon"></div>
+
+    <!-- chatbot-->
+    <div class="chat-container" id="chat-container">
+      <div class="chat-header">
+        <i class="far fa-user-circle"></i>
+        <h2 class="h2-chat"> Pétala - Chatbot</h2>
+        <span class="close-button" id="close-button">&times;</span>
+      </div>
+      <div class="chat-body" id="chat-body">
+        <div class="message received">
+          <p>Bem vindo(a) ao nosso site de floricultura!</p>
+          <p>Estou aqui para ajudar com suas dúvidas e fornecer informações
+              sobre nossos produtos.
+          </p>
+          <p>Como posso ajudar você hoje?</p>
+        </div>
+  
+        <div class="chat-footer">
+          <p class="p-perguntas">Você pode me fazer as seguintes perguntas:</p>
+          <button class="question-buttons-container">Verificar disponibilidade de produtos.</button>
+          <button class="question-buttons-container">Informações sobre entrega e envio.</button>
+          <button class="question-buttons-container">Tirar dúvidas sobre cuidados com as flores.</button>
+          <button class="question-buttons-container">Verificar promoções e descontos especiais.</button>
+        </div>
+      </div>
+    </div>
       
     </div>
 
     </section>
-
       <footer class="footer gridItem">
         <ul>
             <li><a href="">Faq</a></li>
@@ -141,5 +168,8 @@
 
         <ul><li><a href="">CNPJ ou Razão Social</a></li></ul>
       </footer>
+    </section>
+
+    <script src="./chatbot/chatbot - petala/script.js"></script>
 </body>
 </html>
