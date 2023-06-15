@@ -74,7 +74,11 @@ body{
   .chat-footer {
     padding: 10px;
     border-radius: 0 25px 25px 25px;
-    background-color: #e0e0e0;
+    background-color: #b8b4b4;
+  }
+
+  .chat-footer p{
+    margin-bottom: 8px;
   }
   
   .message {
@@ -82,11 +86,11 @@ body{
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 0 25px 25px 25px;
-    background-color: #dadada;
+    background-color: #b8b4b4;
   }
   
   .received {
-    background-color: #e0e0e0;
+    background-color: #b8b4b4;
   }
   
   .sent {

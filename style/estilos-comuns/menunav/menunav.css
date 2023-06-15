@@ -7,6 +7,14 @@
   justify-content: center;
   align-items: center;
 }
+.btn {
+  height: 40px;
+  width: 150px;
+  border-radius: 30%;
+  border: none;
+  color: var(--btnFontColor);
+  background-color: var(--btnBg);
+}
 
 ul {
   display: flex;
