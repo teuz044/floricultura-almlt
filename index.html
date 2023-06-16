@@ -10,8 +10,10 @@
     ></script>
 
     <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet'>
+    <script src="scriptMenu.js"></script>
 
     <link rel="stylesheet" href="style/paginas/home/home.css">
+    <link rel="stylesheet" href="style/estilos-comuns/menunav/menunav_atualizado.css">
     <link rel="stylesheet" href="style/estilos-comuns/reset.css">
     <link rel="stylesheet" href="style/estilos-comuns/style.css">
     <link rel="stylesheet" href="./chatbot/chatbot - petala/chatbot_style.css">
@@ -21,24 +23,25 @@
 </head>
 <body  class="dark-theme">
     
-    <nav class="nav gridItem">
-        <nav class="nav gridItem">
-          <ul>
+    <nav>
+          <ul class="topnav">
             <li><a class="nav-home" href="#">Sobre</a></li>
             <li><a class="nav-home" href="portifolio.html">Portifólio</a></li>
             <li><a class="nav-home" href="#">Serviços</a></li>
             <li><a class="nav-home" href="#">Contato</a></li>
             <li><a class="nav-home__login" href="login.html">Login</a></li>
+            <a href="javascript:void(0);" onclick="myFunction()">&#9776;
+            </a>
             <li><button class="btn">Dark</button></li>
+
           </ul>
-        </nav>
       </nav>
 
       <section class="section-inicial">
 
         <h2 class="inicial-text">Flores para todos os momentos especiais da sua vida</h2>
 
-        <img src="images/logocomfundo.png" alt="">
+        <img class="logo_img new-logo" src="images/logocomfundo.png" alt="">
 
         <div class="inicial-visit">
             <h2 class="inicial-visit-text">Visite nosso portifólio</h2>
@@ -174,6 +177,7 @@
 
       <script src="./chatbot/chatbot - petala/script.js"></script>
       <script src="./darkmode/app.js"></script>
+      <script src="scriptMenu.js"></script>
     <noscript>You need to enable JavaScript to view the full site.</noscript>
 </body>
 </html>
