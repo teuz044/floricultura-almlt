@@ -49,6 +49,15 @@
   .portifolio {
     margin-bottom: 250px;
   }
+
+  @media (max-width: 768px) {
+    .portifolio-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+    }
+  }
   @media (min-width: 1440px) and (max-width: 1920px) {
 
     .portifolio-container {

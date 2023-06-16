@@ -1,0 +1,125 @@
+* {
+    font-family: calibri;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2 {
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+#centro {
+    line-height: 5em;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.30em;
+}
+
+#centro a {
+    color: #97004B;
+    
+    text-decoration: none;
+    /*Remove o underline do Link a*/
+}
+
+body {
+    background: #FFD9EC;
+    font-family: calibri;
+    font-size: 1.30em;
+}
+
+/* Início da estilização do MENU RESPONSIVO classe: topnav */
+
+/* Remove as margens, define tamanho do menu para 100%, e adiciona uma cor de fundo */
+ul.topnav {
+    background: #2E8B57;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 3em;
+    line-height: 4em;
+    width: 100%;
+}
+
+/* Coloca os itens da lista do Menu lado a lado, e flutua os itens para a esquerda */
+ul.topnav li {
+    display: inline-block;
+    margin-left: 0.5em;
+    font-size: 0.9em;
+    float: left;
+}
+
+/* Estilo dos links dentro da lista */
+ul.topnav li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    height: 3em;
+    line-height: 3em;
+    padding: 0 0.3em 0 0.3em;
+    outline: 0;
+}
+
+/* Altera a cor do link quando passa o mouse em cima*/
+ul.topnav li a:hover {
+    color: #FFB9DC;
+}
+
+/* Esconde os itens da lista quando a resolução da tela for pequena */
+ul.topnav li.icon {
+    display: none;
+}
+
+/* Quando a tela é menor do que 680 pixels de largura, ocultar todos os itens da lista. Mostra o item da lista que contém o link para abrir e fechar a nav superior (li.icon) */
+@media screen and (max-width:680px) {
+    ul.topnav li {
+        display: none;
+    }
+
+    ul.topnav li.icon {
+        float: right;
+        /*O ícone será exibido ao lado direito*/
+        display: inline-block;
+    }
+}
+
+/*A classe responsiva é adicionada à ul superior com o JavaScript quando o usuário clica no ícone. Esta classe faz com que os itens principais do menu fiquem ok em telas menores */
+@media screen and (max-width:680px) {
+    ul.topnav.responsive {
+        position: relative;
+        background: #2E8B57;
+        /*Fundo cinza*/
+        height: auto;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        line-height: 5px;
+        width: 100%;
+
+    }
+
+    ul.topnav.responsive li.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    ul.topnav.responsive li {
+        text-align: center;
+        float: none;
+        padding: 0;
+        display: inline;
+
+    }
+
+    ul.topnav.responsive li a {
+        display: block;
+        padding: 0;
+        text-align: left;
+        line-height: 30px;
+        text-align: center;
+    }
+}
+
+/*FIM DO MENU RESPONSIVO*/

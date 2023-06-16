@@ -41,3 +41,15 @@
     background-color: #2E8B57;
 }
 /* SECTION mais-vendidos reutilizada, mas com outras cores. FIM */
+
+@media (max-width: 768px) {
+    .section-inicial {
+        padding-top: 5rem;
+        padding-bottom: 3rem;
+        flex-direction: column;
+    }
+    .new-logo {
+        display: none;
+    }
+  }
+  

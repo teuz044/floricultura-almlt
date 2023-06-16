@@ -26,3 +26,10 @@
     font-size: 22px;
     line-height: 120%;
 }
+
+@media (max-width: 768px) {
+    .chamada__portifolio-title {
+        font-size: 45px;
+        width: 350px;
+    }
+  }
